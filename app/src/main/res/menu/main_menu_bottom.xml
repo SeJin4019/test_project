@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="메인화면"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/icon_search"
+        android:enabled="true"
+        android:title="검색"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_my_page"
+        android:icon="@drawable/icon_info"
+        android:title="마이페이지"
+        android:enabled="true"
+        app:showAsAction="always" />
+</menu>
